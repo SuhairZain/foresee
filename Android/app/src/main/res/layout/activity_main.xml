@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.mapbox.mapboxsdk.views.MapView
+        android:id="@+id/mapview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mapbox:mapid="suhairzain.n894ka0c"
+        mapbox:centerLat="10.0254234"
+        mapbox:centerLng="76.3126919"
+        mapbox:accessToken="pk.eyJ1Ijoic3VoYWlyemFpbiIsImEiOiJiZGJiZjU0N2VkZmJjNTE1NGY4ZGJhYzVlYzhjODhhZCJ9.S08NOCedoZ1ieNyz5BZaHg"
+        mapbox:zoomLevel="16"/>
+
+</RelativeLayout>
